@@ -1,4 +1,4 @@
 services:
   vpp:
     volumes:
-    - ./startup.conf:/etc/vpp/startup-nodpdk.conf
+    - ./startup-nodpdk.conf:/etc/vpp/startup.conf
